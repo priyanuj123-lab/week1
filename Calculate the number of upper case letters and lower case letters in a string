@@ -1,0 +1,5 @@
+# 14. Calculate the number of uppercase and lowercase letters in a string.
+string = "Hello World!"
+upper_count = sum(1 for char in string if char.isupper())
+lower_count = sum(1 for char in string if char.islower())
+print(f"Uppercase letters: {upper_count}, Lowercase letters: {lower_count}")

@@ -1,0 +1,4 @@
+# 9. Reverse a given string.
+string = "Python"
+reversed_string = string[::-1]
+print("Reversed string:", reversed_string)
